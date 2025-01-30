@@ -9,7 +9,7 @@ public class ChestESPMod implements ClientModInitializer {
     public void onInitializeClient() {
         toggleKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
                 "key.chestesp.toggle",
-                GLFW.GLFW_KEY_G, // Tombol 'G' untuk toggle
+                GLFW.GLFW_KEY_G, // teken g togglenya
                 "category.chestesp"
         ));
 
